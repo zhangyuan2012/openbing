@@ -1,0 +1,15 @@
+20120801 
+1 start pc
+  open terminal 
+  ifconfig           ----wireless / lan 
+  cd /home/zy/mirror/openvpn ---------------- switch openvpn dir
+  openvpn client.ovpn &      ---------------- if completed ----successful
+  vim /etc/reslov.conf       ---------------- set dns 
+      yy
+      p
+      i
+      nameserver 8.8.8.8            
+      ping facebook.com      ---------------- if ok: successful
+2 
+  
+  
